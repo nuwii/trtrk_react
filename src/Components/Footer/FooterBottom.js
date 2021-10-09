@@ -28,7 +28,15 @@ const FooterBottom = () => {
                 </a>
               </li>
             </ul>
-            <p>© copyright 2019 by Layerdrops.com</p>
+            <p>
+              <a
+                target="_blank"
+                style={{ color: "#b9c2ca", textDecoration: "none" }}
+                href="https://www.osireklamajansi.com"
+              >
+                © copyright 2021 by OsiCrew
+              </a>
+            </p>
           </div>
           {/* /.row */}
         </div>

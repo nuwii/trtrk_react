@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import icons from "./Data/icons.json";
 import texts from "./Data/texts.json";
 import { fetchTexts } from "./Redux/actions/textActions";
+
 const store = createStore(
   rootReducer,
   load(),

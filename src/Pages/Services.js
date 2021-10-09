@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import LayoutOne from "../Layouts/LayoutOne";
 
-export const News = () => {
+const Services = () => {
   return (
     <Fragment>
       <LayoutOne>
@@ -10,13 +10,13 @@ export const News = () => {
             <div className="thm-header text-center">
               <ul className="pb-10">
                 <li>
-                  <a href="#" className="c1">
-                    Home
+                  <a href="/" className="c1">
+                    ANASAYFA
                   </a>
                 </li>
-                <li className="c1">News</li>
+                <li className="c1">HİZMETLERİMİZ</li>
               </ul>
-              <h1 className="c3">Latest News</h1>
+              <h1 className="c3">HİZMETLERİMİZ</h1>
             </div>
             {/* /.thm-header */}
           </div>
@@ -241,4 +241,4 @@ export const News = () => {
   );
 };
 
-export default News;
+export default Services;

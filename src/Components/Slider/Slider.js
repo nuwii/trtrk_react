@@ -20,7 +20,7 @@ const Slider = () => {
         <div
           className="carousel-item active slide-1"
           style={{
-            backgroundImage: "url(img/bg/01.jpg)",
+            backgroundImage: "url(img/bg/slider.jpg)",
             backgroundPosition: "center left",
           }}
         >
@@ -57,7 +57,7 @@ const Slider = () => {
         <div
           className="carousel-item slide-2"
           style={{
-            backgroundImage: "url(img/bg/02.jpg)",
+            backgroundImage: "url(img/bg/slider2.jpg)",
             backgroundPosition: "top center",
           }}
         >
@@ -92,7 +92,7 @@ const Slider = () => {
         <div
           className="carousel-item slide-3"
           style={{
-            backgroundImage: "url(img/bg/03.jpg)",
+            backgroundImage: "url(img/bg/slider3.jpg)",
             backgroundPosition: "top center",
           }}
         >

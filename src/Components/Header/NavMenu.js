@@ -13,7 +13,7 @@ const NavMenu = ({ strings, icons, texts }) => {
           <div className="container clearfix">
             <div className="logo-box float-left">
               <Link to="/home">
-                <img src="img/logo-light.png" alt />
+                <img style={{ maxWidth: "10em" }} src={icons.logo} alt />
               </Link>
             </div>
             {/* /.logo-box */}
@@ -89,14 +89,49 @@ const NavMenu = ({ strings, icons, texts }) => {
                   <Link style={{ textDecoration: "none" }} to="/">
                     {strings["home"]}
                   </Link>
-                  {/* <ul className="sub-menu">
+                </li>
+                <li>
+                  <Link style={{ textDecoration: "none" }} to="/hakkimizda">
+                    {strings["about"]}
+                  </Link>
+                </li>
+                {/* //////////////////////////////////    değişecek    /////////////////////////////////// */}
+                <li>
+                  <Link style={{ textDecoration: "none" }} to="/hizmetlerimiz">
+                    Hizmetlerimiz
+                  </Link>
+
+                  <ul className="sub-menu">
                     <li>
-                      <a href="index.html">Home 01</a>
+                      <Link
+                        style={{ textDecoration: "none" }}
+                        to="/turizm-tasimacilik"
+                      >
+                        Turizm Taşımacılık
+                      </Link>
                     </li>
                     <li>
-                      <a href="index-2.html">Home 02</a>
+                      <Link
+                        style={{ textDecoration: "none" }}
+                        to="/kongre-toplanti-organizasyon"
+                      >
+                        Kongre-Toplantı-Organizasyon
+                      </Link>
                     </li>
                     <li>
+                      <Link
+                        style={{ textDecoration: "none" }}
+                        to="/filo-kiralama"
+                      >
+                        Filo Kiralama
+                      </Link>
+                    </li>
+                    <li>
+                      <Link style={{ textDecoration: "none" }} to="/vip">
+                        V.I.P.
+                      </Link>
+                    </li>
+                    {/* <li>
                       <a href="#">Header Styles</a>
                       <ul className="sub-menu">
                         <li>
@@ -106,18 +141,8 @@ const NavMenu = ({ strings, icons, texts }) => {
                           <a href="index-2.html">Header Style 02</a>
                         </li>
                       </ul>
-                    </li>
-                  </ul> */}
-                </li>
-                <li>
-                  <Link style={{ textDecoration: "none" }} to="/hakkimizda">
-                    {strings["about"]}
-                  </Link>
-                </li>
-                <li>
-                  <Link style={{ textDecoration: "none" }} to="/haberler">
-                    {strings["news"]}
-                  </Link>
+                    </li> */}
+                  </ul>
                 </li>
                 <li>
                   <Link style={{ textDecoration: "none" }} to="/teklifAl">
@@ -125,6 +150,7 @@ const NavMenu = ({ strings, icons, texts }) => {
                     {strings["getQoute"]}{" "}
                   </Link>
                 </li>
+
                 <li>
                   <Link style={{ textDecoration: "none" }} to="/iletisim">
                     {strings["contact"]}

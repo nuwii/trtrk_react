@@ -28,20 +28,35 @@ const Contact = () => {
                   <img src="img/contact-1-1.jpg" alt="Contac Banner" />
                   <figcaption className="text-left">
                     <div className="thm-header text-white">
-                      <p className="pb-10">Get in touch with us</p>
-                      <h1>
-                        You’ve any question? feel free to contact with us.
-                      </h1>
+                      <p className="pb-10">BİZE ULAŞIN</p>
+                      <h1>Bizimle temas kurmaktan çekinmeyin.</h1>
                     </div>
                     {/* /.thm-header */}
                     <ul>
                       <li>
-                        <p>Call us today for imiditate support</p>
-                        <h2>888 999 0000</h2>
+                        {/* <p>Destek için bizi bu numaradan arabilirsiniz</p> */}
+                        <h2>
+                          <a
+                            style={{ color: "white", textDecoration: "none" }}
+                            href="tel:+905555555555"
+                          >
+                            +90(555)555-55-55
+                          </a>
+                        </h2>
                       </li>
                       <li>
-                        <p>Send us email for any kind of inquiry</p>
-                        <h2>needhelp@Carivon.com</h2>
+                        {/* <p>
+                          Her türlü görüş, düşünce ya da sormak istedikleriniz
+                          için bu mail adresinden bizlere ulaşabilirsiniz.
+                        </p> */}
+                        <h2>
+                          <a
+                            style={{ color: "white", textDecoration: "none" }}
+                            href="mailto:info@osireklamajansi.com"
+                          >
+                            info@osireklamajansi.com
+                          </a>
+                        </h2>
                       </li>
                     </ul>
                   </figcaption>
@@ -57,8 +72,8 @@ const Contact = () => {
               <div className="row justify-content-center">
                 <div className="col-12">
                   <div className="thm-header text-center">
-                    <p className="c1 pb-10">Contact with us</p>
-                    <h1 className="c3">Send us Message</h1>
+                    <p className="c1 pb-10">BİZE ULAŞIN</p>
+                    <h1 className="c3">Bize Mesaj Gönderin</h1>
                   </div>
                   {/* /.thm-header */}
                 </div>
@@ -67,30 +82,30 @@ const Contact = () => {
                   <form>
                     <input
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="Adınız Soyadınız"
                       className="float-left"
                     />
                     <input
                       type="text"
-                      placeholder="Email Address"
+                      placeholder="Email Adresiniz"
                       className="float-right"
                     />
                     <input
                       type="text"
-                      placeholder="Phone Number"
+                      placeholder="Telefon Numaranız"
                       className="float-left"
                     />
                     <input
                       type="text"
-                      placeholder="Subject"
+                      placeholder="Konu"
                       className="float-right"
                     />
                     <textarea
-                      placeholder="Write your message"
+                      placeholder="Mesajınızı yazınız."
                       defaultValue={""}
                     />
                     <div className="text-center">
-                      <button type="submit">submit now</button>
+                      <button type="submit">GÖNDER</button>
                     </div>
                   </form>
                 </div>

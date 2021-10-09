@@ -3,7 +3,7 @@ import { createMultilanguageReducer } from "redux-multilanguage";
 import iconsReducer from "./iconReducers";
 import textsReducers from "./textReducers";
 const rootReducer = combineReducers({
-  multilanguage: createMultilanguageReducer({ currentLanguageCode: "tr" }),
+  multilanguage: createMultilanguageReducer({ currentLanguageCode: "en" }),
   iconsData: iconsReducer,
   textsData: textsReducers,
 });

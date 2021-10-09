@@ -3,8 +3,10 @@ import { multilanguage } from "redux-multilanguage";
 import NavMenu from "../Components/Header/NavMenu";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import { changeLanguage } from "redux-multilanguage";
+const Header = ({ strings, icons, texts, dispatch }) => {
+  dispatch(changeLanguage("en"));
 
-const Header = ({ strings, icons, texts }) => {
   return (
     <div>
       <NavMenu strings={strings} icons={icons} texts={texts} />
@@ -18,5 +20,7 @@ const mapStateToProps = (state) => {
     texts: state.textsData.texts,
   };
 };
-
+Header.propTypes = {
+  dispatch: PropTypes.func,
+};
 export default multilanguage(connect(mapStateToProps)(Header));

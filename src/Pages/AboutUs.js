@@ -10,13 +10,13 @@ const AboutUs = () => {
             <div className="thm-header text-center">
               <ul className="pb-10">
                 <li>
-                  <a href="#" className="c1">
-                    Home
+                  <a href="/about" className="c1">
+                    ANASAYFA
                   </a>
                 </li>
-                <li className="c1">about us</li>
+                <li className="c1">HAKKIMIZDA</li>
               </ul>
-              <h1 className="c3">Get to Know Us</h1>
+              <h1 className="c3">HAKKIMIZDA</h1>
             </div>
             {/* /.thm-header */}
           </div>
