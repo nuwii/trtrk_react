@@ -1,0 +1,10 @@
+{
+  "logo": "img/logo-light.png",
+  "mapIcon": "carevan-icon-placeholder",
+  "phoneIcon": "carevan-icon-phone-call",
+  "clockIcon": "carevan-icon-clock",
+  "twitterIcon": "fa fa-twitter",
+  "instagramIcon": "fab fa-instagram",
+  "facebookIcon": "fa fa-facebook-f",
+  "linkedinIcon": "fab fa-linkedin-in"
+}
