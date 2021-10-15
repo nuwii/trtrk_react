@@ -61,7 +61,7 @@ const NavMenu = ({ strings, icons, texts }) => {
               </div>
               {/* /.single-right-contact */}
               <div className="single-right-contact">
-                <a href="get-qoute.html" className="header-btn">
+                <a href="/teklifAl" className="header-btn">
                   Talep Formu
                 </a>
                 {/* /.header-btn */}
@@ -152,9 +152,9 @@ const NavMenu = ({ strings, icons, texts }) => {
                 </li>
 
                 <li>
-                  <Link style={{ textDecoration: "none" }} to="/iletisim">
+                  <a style={{ textDecoration: "none" }} href="/iletisim">
                     {strings["contact"]}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

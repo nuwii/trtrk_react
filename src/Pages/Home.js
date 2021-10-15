@@ -13,7 +13,7 @@ const Home = () => {
     <LayoutOne>
       <Slider />
       <SectionIntro />
-      <SectionTwo />
+      {/* <SectionTwo /> */}
       <SectionWhyUs />
       <SectionNews />
     </LayoutOne>

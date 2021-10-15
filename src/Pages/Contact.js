@@ -1,26 +1,49 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState, useRef } from "react";
 import LayoutOne from "../Layouts/LayoutOne";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_iaxmnw2",
+        "template_olskmdg",
+        form.current,
+        "user_YJkusy5AJ3KRaX7ZSxU0O"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <Fragment>
       <LayoutOne>
         <div className="contact">
+          {/* /.googleMap */}
           <div className="googleMap">
             <div
-              className="google-map"
+              className="google-map-dark"
               id="map"
-              data-map-lat="40.712028"
-              data-map-lng="-74.095667"
+              data-map-lat="39.91289"
+              data-map-lng="32.80405"
               data-map-title="Advotis"
               data-icon-path="img/map-marker.png"
-              data-map-zoom={12}
+              data-map-zoom={17}
               data-markers='{
-                             "marker-1": [40.712028, -74.095667, "<h4>Carivon</h4><p>1430 Jersey City, USA</p>"]
+                             "marker-1": [39.91289, 32.80405, "<h4>Turtürk</h4><p>Çankaya / ANKARA</p>"]
                              }'
             ></div>
           </div>
-          {/* /.googleMap */}
           <div className="container">
             <div className="row justify-content-end">
               <div className="contact-txt f1 col-12">
@@ -79,33 +102,40 @@ const Contact = () => {
                 </div>
                 {/* /.col-12 */}
                 <div className="col-xl-8">
-                  <form>
+                  <form ref={form} onSubmit={sendEmail}>
                     <input
                       type="text"
                       placeholder="Adınız Soyadınız"
+                      name="ad_soyad"
                       className="float-left"
                     />
                     <input
-                      type="text"
+                      type="email"
                       placeholder="Email Adresiniz"
+                      name="email"
                       className="float-right"
                     />
                     <input
-                      type="text"
+                      type="number"
                       placeholder="Telefon Numaranız"
+                      name="telefon"
                       className="float-left"
                     />
                     <input
                       type="text"
                       placeholder="Konu"
+                      name="konu"
                       className="float-right"
                     />
                     <textarea
                       placeholder="Mesajınızı yazınız."
                       defaultValue={""}
+                      name="mesaj"
                     />
                     <div className="text-center">
-                      <button type="submit">GÖNDER</button>
+                      <button value="Send" type="submit">
+                        GÖNDER
+                      </button>
                     </div>
                   </form>
                 </div>

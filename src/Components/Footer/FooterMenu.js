@@ -7,22 +7,22 @@ const FooterMenu = () => {
       {/* /.col-xl-3 */}
       <div className="col-lg-3 col-md-6 d-flex justify-content-xl-center">
         <div className="footer-col">
-          <h2>company</h2>
+          <h2>Kolay Erişim</h2>
           <ul>
             <li>
-              <a href="about.html">About</a>
+              <a href="/">Anasayfa</a>
             </li>
             <li>
-              <a href="contact.html">Book Online</a>
+              <a href="/hakkimizda">Hakkımızda</a>
             </li>
             <li>
-              <a href="#">Testimonials</a>
+              <a href="/hizmetlerimiz">Hizmetlerimiz</a>
             </li>
             <li>
-              <a href="#">Gallery</a>
+              <a href="/teklifAl">Teklif Al</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="/iletisim">İletişim</a>
             </li>
           </ul>
         </div>
@@ -31,22 +31,19 @@ const FooterMenu = () => {
       {/* /.col-xl-3 */}
       <div className="col-lg-3 col-md-6">
         <div className="footer-col">
-          <h2>services</h2>
+          <h2>Sosyal Medya</h2>
           <ul>
             <li>
-              <a href="single-service.html">General repairs</a>
+              <a href="#">Facebook</a>
             </li>
             <li>
-              <a href="single-service.html">Insurance repairs</a>
+              <a href="#">Instagram</a>
             </li>
             <li>
-              <a href="single-service.html">Warranty repairs</a>
+              <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="single-service.html">Installation &amp; Modifications</a>
-            </li>
-            <li>
-              <a href="single-service.html">Servicing &amp; Maintenance</a>
+              <a href="#">Youtube</a>
             </li>
           </ul>
         </div>
@@ -57,15 +54,15 @@ const FooterMenu = () => {
         <div className="footer-col">
           <h2>contact</h2>
           <h4>
-            855 Road Broklyn Street, 600
+            Koç İkiz Kuleleri B Blok Kat:9
             <br />
-            New York, USA
+            Çankaya / ANKARA
           </h4>
           <ul>
             <li>
               <span>
                 <i className="fa fa-envelope c1" />
-                needhelp@Carivon.com
+                info@osicrew.com
               </span>
             </li>
             <li>

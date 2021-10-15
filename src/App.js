@@ -17,17 +17,15 @@ import Vip from "./Pages/Vip";
 import Services from "./Pages/Services";
 
 const App = (props) => {
-  useEffect(() => {
-    props.dispatch(
-      loadLanguages({
-        languages: {
-          tr: require("./Translations/turkce.json"),
-          en: require("./Translations/english.json"),
-        },
-      })
-    );
-    props.dispatch(changeLanguage("en"));
-  });
+  props.dispatch(
+    loadLanguages({
+      languages: {
+        tr: require("./Translations/turkce.json"),
+        en: require("./Translations/english.json"),
+      },
+    })
+  );
+  props.dispatch(changeLanguage("en"));
 
   return (
     <Router>

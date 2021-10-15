@@ -1,7 +1,30 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
 import LayoutOne from "../Layouts/LayoutOne";
+import emailjs from "emailjs-com";
 
-export const GetQoute = () => {
+const GetQoute = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_iaxmnw2",
+        "template_luscnza",
+        form.current,
+        "user_YJkusy5AJ3KRaX7ZSxU0O"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <Fragment>
       <LayoutOne>
@@ -60,57 +83,98 @@ export const GetQoute = () => {
                           </h1>
                         </div>
                         {/* /.thm-header */}
-                        <form className="clearfix text-center">
-                          <div className="quote-block float-left">
-                            <input type="text" placeholder="Ad Soyad" />
-                          </div>
-                          {/* /.quote-block */}
-                          <div className="quote-block float-right">
-                            <input type="text" placeholder="Eposta Adresiniz" />
-                          </div>
-                          {/* /.quote-block */}
+
+                        <form
+                          ref={form}
+                          onSubmit={sendEmail}
+                          className="clearfix text-center"
+                        >
                           <div className="quote-block float-left">
                             <input
                               type="text"
-                              placeholder="Telefon Numaranız"
+                              placeholder="Ad Soyad"
+                              name="ad_soyad"
                             />
                           </div>
                           {/* /.quote-block */}
                           <div className="quote-block float-right">
-                            <input type="text" placeholder="Firma Ünvanı" />
+                            <input
+                              type="email"
+                              placeholder="Eposta Adresiniz"
+                              name="e_posta"
+                            />
+                          </div>
+                          {/* /.quote-block */}
+                          <div className="quote-block float-left">
+                            <input
+                              type="number"
+                              placeholder="Telefon Numaranız"
+                              name="telefon_no"
+                            />
+                          </div>
+                          {/* /.quote-block */}
+                          <div className="quote-block float-right">
+                            <input
+                              type="text"
+                              placeholder="Firma Ünvanı"
+                              name="firma_unvan"
+                            />
                           </div>
                           {/* /.quote-block */}
                           <div className="quote-block float-left">
                             <input
                               type="text"
                               placeholder="Firmanızın Bulunduğu Şehir"
+                              name="firma_sehir"
                             />
                           </div>
                           <div className="quote-block float-right">
                             <input
                               type="text"
                               placeholder="Bulunduğunuz Şehir"
+                              name="kisi_sehir"
                             />
                           </div>
                           <div className="quote-block float-left">
-                            <input type="text" placeholder="Vergi Dairesi" />
+                            <input
+                              type="text"
+                              placeholder="Vergi Dairesi"
+                              name="vergi_dairesi"
+                            />
                           </div>
                           <div className="quote-block float-right">
-                            <input type="text" placeholder="Vergi Numarası" />
+                            <input
+                              type="number"
+                              placeholder="Vergi Numarası"
+                              name="vergi_numarasi"
+                            />
                           </div>
                           <div className="quote-block float-left">
-                            <input type="text" placeholder="Araç Sayısı" />
+                            <input
+                              type="number"
+                              placeholder="Araç Sayısı"
+                              name="arac_sayisi"
+                            />
                           </div>
                           <div className="quote-block float-right">
-                            <input type="text" placeholder="Yıllık Kilometre" />
+                            <input
+                              type="text"
+                              placeholder="Yıllık Kilometre"
+                              name="yillik_kilometre"
+                            />
                           </div>
                           <div className="quote-block float-left">
-                            <input type="text" placeholder="Kiralama Süresi" />
+                            <input
+                              type="text"
+                              placeholder="Kiralama Süresi"
+                              name="kiralama_suresi"
+                            />
                           </div>
                           <div className="quote-block float-right">
                             <input
                               type="text"
                               placeholder="İlgilendiğiniz Araç"
+                              name="ilgilenilen_arac"
                             />
                           </div>
                           {/* /.quote-block */}
@@ -134,10 +198,13 @@ export const GetQoute = () => {
                           <div className="clr" />
                           {/* /.clr */}
                           <textarea
+                            name="message"
                             placeholder="Ekstra Talepleriniz..."
                             defaultValue={""}
                           />
-                          <button type="submit">Gönder</button>
+                          <button type="submit" value="Send">
+                            Gönder
+                          </button>
                         </form>
                       </div>
                       {/* /.quote-form */}
