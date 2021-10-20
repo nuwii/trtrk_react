@@ -1,6 +1,8 @@
 import React from "react";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import Layout from "../Layouts/LayoutOne";
+import SideBar from "../Components/SideBar/SideBar";
 
 const TourismTransportation = () => {
   return (
@@ -28,186 +30,70 @@ const TourismTransportation = () => {
                 <div className="col-lg-8">
                   <article>
                     <figure>
-                      <img
-                        src="img/single-service-1-1.jpg"
-                        alt="Service Thumb"
-                      />
+                      <img src="img/turizm/turizm2.jpg" alt="Service Thumb" />
                     </figure>
                     <div className="service-body">
-                      <h2>General Repairs</h2>
+                      <h2>Turizm Taşımacılık</h2>
                       <p>
-                        Lorem Ipsum is simply dummy text of the rinting and
-                        typesetting industry has been the ndustry standard dummy
-                        text ever sincer they llam id condimentum purus In non
-                        ex at ligula fringilla bortis. Ut et mauris auctor,
-                        aliquet nulla sed, aliquam mauris. Vestibulum sed
-                        malesuada dolor. Integer fringilla odio a dolor aliquet,
-                        eu euismod lectus porttitor. Proin et libero nec eros
-                        eleifend commodo Phasellus sodales des volutpat diam, id
-                        sagittis purus egestas dapibus. Donec bibendum est quis
-                        mi commodo blandit.
+                        TurTürk olarak yerli ve yabancı tüm konuklarımızın
+                        seyahatlerinde zamanlama, konfor ve güvenliklerini ön
+                        planda tutarak, mesleğinde uzmanlaşmış yetkin
+                        personellerimiz ile sizlere hizmet vermekteyiz.
                       </p>
                       <div className="row flex-md-row flex-column align-items-center">
                         <div className="col-sm-6">
                           <img
-                            src="img/single-service-1-2.jpg"
+                            src="img/turizm/turizm1.jpg"
                             alt="Service Image"
                           />
                         </div>
                         {/* /.col-sm-6 */}
                         <div className="col-sm-6">
                           <img
-                            src="img/single-service-1-3.jpg"
+                            src="img/turizm/turizm3.jpg"
                             alt="Service Image"
                           />
                         </div>
                         {/* /.col-sm-6 */}
                       </div>
                       {/* /.d-flex */}
-                      <h3>General Repair &amp; Service Included:</h3>
+                      <h3>Seyahatlerinizde kullanılan tüm araçlarımızın;</h3>
                       <ul>
-                        <li>Additional add on”s</li>
-                        <li>Wind up Systems</li>
-                        <li>Appliance – Servicing or replace</li>
-                        <li>Tow ball weight</li>
-                        <li>Brakes and Bearing</li>
-                        <li>Safety Checks</li>
-                        <li>Modification</li>
-                        <li>Towing set-up</li>
-                        <li>Replacement – Repair awnings</li>
-                        <li>12v- &amp; 240V repairs</li>
-                        <li>Roadworthy and Gas Cert</li>
+                        <li>
+                          İç ve dış temizlikleri düzenli olarak yapılmaktadır.
+                        </li>
+                        <li>
+                          Sadece seyahat öncesinde değil, seyahat esnasında da
+                          temiz ve hijyenik olmasına özen gösterilmektedir.
+                        </li>
+                        <li>
+                          Muayene ve sigorta poliçeleri ( ihtiyari mali
+                          mesuliyet, kasko, trafik) eksiksiz şekilde
+                          yapılmaktadır.
+                        </li>
+                        <li>
+                          Herhangi bir kazaya sebebiyet vermemek adına kapıların
+                          tümü otomatik olup, sürücü tarafından kumanda
+                          edilmektedir.
+                        </li>
+                        <li>Tüm güvenlik kontrolleri yapılmaktadır.</li>
                       </ul>
-                      <p>
-                        Check and inspect brakes and bearings tyres springs and
-                        shackles for wear, outriggers, chassis rails,
-                        cross-members and a-frames checked for damage/fatigue.
-                        Jockey wheel and jack’s lubricated for ease of operation
-                        external lights, wiring, and connections plumbing and
-                        hoses inspected for integrity and protection hand brake
-                        adjustment plumbing silicon integrity pre inspection
-                        reports before you buy are important at caravan repair
-                        service we can assist you in making the right choice.
-                      </p>
                     </div>
                     {/* /.service-body */}
-                    <div className="quote-form">
-                      <h2>Get a Free Quote</h2>
-                      <form className="clearfix">
-                        <div className="quote-block float-left">
-                          <input type="text" placeholder="Your Name" />
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="quote-block float-right">
-                          <input type="text" placeholder="Email Address" />
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="quote-block float-left">
-                          <input type="text" placeholder="Phone Number" />
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="quote-block float-right">
-                          <input type="text" placeholder="Select Year" />
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="quote-block float-left">
-                          <input type="text" placeholder="Select Model" />
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="quote-block float-right">
-                          <input
-                            type="radio"
-                            className="d-none"
-                            id="repair"
-                            name="caravan"
-                          />
-                          <label htmlFor="repair">Repair</label>
-                          <input
-                            type="radio"
-                            className="d-none"
-                            id="service"
-                            name="caravan"
-                          />
-                          <label htmlFor="service">Service</label>
-                        </div>
-                        {/* /.quote-block */}
-                        <div className="clr" />
-                        {/* /.clr */}
-                        <textarea
-                          placeholder="Tell us about the service and/or repair you require?"
-                          defaultValue={""}
-                        />
-                        <button type="submit">
-                          Book Service Appointment now
-                        </button>
-                      </form>
-                    </div>
+
                     {/* /.quote-form */}
                   </article>
                 </div>
                 {/* /.col-lg-8 */}
-                <div className="col-lg-4">
-                  <div className="service-sidebar">
-                    <div className="service-widget">
-                      <h2>All Services</h2>
-                      <ul>
-                        <li>
-                          <a href="#">Insurance Repairs</a>
-                        </li>
-                        <li>
-                          <a href="#">General Repairs</a>
-                        </li>
-                        <li>
-                          <a href="#">Warranty Repairs</a>
-                        </li>
-                        <li>
-                          <a href="#">Installation &amp; Modification</a>
-                        </li>
-                        <li>
-                          <a href="#">Servicing &amp; Maintenance</a>
-                        </li>
-                        <li>
-                          <a href="#">Bodywork Repairs</a>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* /.service-widget */}
-                    <div className="call-us text-center">
-                      <p className="fw-7 c1 text-uppercase">call us today</p>
-                      <h1 className="fw-3 c3">666 888 0000</h1>
-                    </div>
-                    {/* /.call-us */}
-                  </div>
-                  {/* /.service-sidebar */}
-                </div>
+
+                <SideBar />
+
                 {/* /.col-lg-4 */}
               </div>
               {/* /.row */}
             </div>
             {/* /.container */}
-            <div className="partners bg4">
-              <div className="container">
-                <div className="partner-carousel owl-carousel">
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                </div>
-                {/* /.partner-carousel */}
-              </div>
-              {/* /.container */}
-            </div>
+
             {/* /.partners */}
           </div>
           {/* /.service */}

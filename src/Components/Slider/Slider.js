@@ -54,10 +54,11 @@ const Slider = () => {
             </div>
           </div>
         </div>
+
         <div
-          className="carousel-item slide-2"
+          className="carousel-item slide-3"
           style={{
-            backgroundImage: "url(img/bg/slider2.jpg)",
+            backgroundImage: "url(img/bg/bg-9.jpg)",
             backgroundPosition: "top center",
           }}
         >
@@ -65,25 +66,35 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <div
-                    data-animation="animated fadeInUp "
-                    className="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box"
-                  >
-                    <i className="carevan-icon-caravan" />
-                  </div>
+                  <h2 data-animation="animated fadeInUp " className="animDe-1">
+                    Total Care For Your
+                  </h2>
                   <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Qualified &amp; Certified
+                    Caravan Or Motorhome
                   </h2>
-                  <h2 data-animation="animated fadeInUp" className=" animDe-3">
-                    Repairs Service
-                  </h2>
-                  <a
-                    href="contact.html"
-                    data-animation="animated fadeInUp "
-                    className="animDe-4 bg1 text-white banner-btn"
-                  >
-                    contact us
-                  </a>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    We pride ourselves on giving you the best standard of
+                  </p>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    customer Service and quality Repairs.
+                  </p>
+                  <div className="banner-btn-box">
+                    <a
+                      href="contact.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-4 bg1 text-white banner-btn"
+                    >
+                      contact us
+                    </a>
+                    <a
+                      href="service.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-5 bg2 text-white banner-btn style-two"
+                    >
+                      our services
+                    </a>
+                  </div>
+                  {/* /.banner-btn-box */}
                 </div>
               </div>
             </div>
@@ -92,7 +103,97 @@ const Slider = () => {
         <div
           className="carousel-item slide-3"
           style={{
-            backgroundImage: "url(img/bg/slider3.jpg)",
+            backgroundImage: "url(img/bg/slider4.jpg)",
+            backgroundPosition: "top center",
+          }}
+        >
+          <div className="carousel-caption">
+            <div className="container">
+              <div className="box valign-middle">
+                <div className="content text-center">
+                  <h2 data-animation="animated fadeInUp " className="animDe-1">
+                    Total Care For Your
+                  </h2>
+                  <h2 data-animation="animated fadeInUp " className="animDe-2">
+                    Caravan Or Motorhome
+                  </h2>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    We pride ourselves on giving you the best standard of
+                  </p>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    customer Service and quality Repairs.
+                  </p>
+                  <div className="banner-btn-box">
+                    <a
+                      href="contact.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-4 bg1 text-white banner-btn"
+                    >
+                      contact us
+                    </a>
+                    <a
+                      href="service.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-5 bg2 text-white banner-btn style-two"
+                    >
+                      our services
+                    </a>
+                  </div>
+                  {/* /.banner-btn-box */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="carousel-item slide-3"
+          style={{
+            backgroundImage: "url(img/bg/slider5.jpg)",
+            backgroundPosition: "top center",
+          }}
+        >
+          <div className="carousel-caption">
+            <div className="container">
+              <div className="box valign-middle">
+                <div className="content text-center">
+                  <h2 data-animation="animated fadeInUp " className="animDe-1">
+                    Total Care For Your
+                  </h2>
+                  <h2 data-animation="animated fadeInUp " className="animDe-2">
+                    Caravan Or Motorhome
+                  </h2>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    We pride ourselves on giving you the best standard of
+                  </p>
+                  <p data-animation="animated fadeInUp " className="animDe-3">
+                    customer Service and quality Repairs.
+                  </p>
+                  <div className="banner-btn-box">
+                    <a
+                      href="contact.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-4 bg1 text-white banner-btn"
+                    >
+                      contact us
+                    </a>
+                    <a
+                      href="service.html"
+                      data-animation="animated fadeInUp "
+                      className="animDe-5 bg2 text-white banner-btn style-two"
+                    >
+                      our services
+                    </a>
+                  </div>
+                  {/* /.banner-btn-box */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="carousel-item slide-3"
+          style={{
+            backgroundImage: "url(img/bg/slider6.jpg)",
             backgroundPosition: "top center",
           }}
         >

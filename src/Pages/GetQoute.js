@@ -219,20 +219,8 @@ const GetQoute = () => {
             </div>
             {/* /.container-fluid */}
           </div>
-          <div className="googleMap">
-            <div
-              className="google-map"
-              id="map"
-              data-map-lat="40.712028"
-              data-map-lng="-74.095667"
-              data-map-title="Advotis"
-              data-icon-path="img/map-marker.png"
-              data-map-zoom={12}
-              data-markers='{
-                         "marker-1": [40.712028, -74.095667, "<h4>Carivon</h4><p>1430 Jersey City, USA</p>"]
-                         }'
-            ></div>
-          </div>
+          <div style={{ height: "4rem", backgroundColor: "#f3f5f9" }}></div>
+
           {/* /.googleMap */}
           {/* /.page-wrapper */}
         </div>

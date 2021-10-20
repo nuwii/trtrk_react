@@ -15,7 +15,7 @@ const Home = () => {
       <SectionIntro />
       {/* <SectionTwo /> */}
       <SectionWhyUs />
-      <SectionNews />
+      {/* <SectionNews /> */}
     </LayoutOne>
   );
 };

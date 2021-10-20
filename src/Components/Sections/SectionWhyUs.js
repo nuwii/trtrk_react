@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionWhyUs = () => {
   return (
-    <div className="whyus f1">
+    <div className="whyus f1 mb-0">
       <div className="container">
         <div className="row">
           <div className="col-xl-3">
@@ -25,7 +25,7 @@ const SectionWhyUs = () => {
                 Competitive prices and guaranteed work on all repairs.
               </h2>
               <figure>
-                <img src="img/feature-1-1.jpg" alt="Feature" />
+                <img src="img/filo-3.jpg" alt="Feature" />
               </figure>
             </div>
             {/* /.feature-area */}

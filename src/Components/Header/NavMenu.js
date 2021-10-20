@@ -62,7 +62,7 @@ const NavMenu = ({ strings, icons, texts }) => {
               {/* /.single-right-contact */}
               <div className="single-right-contact">
                 <a href="/teklifAl" className="header-btn">
-                  Talep Formu
+                  TEKLİF AL
                 </a>
                 {/* /.header-btn */}
               </div>

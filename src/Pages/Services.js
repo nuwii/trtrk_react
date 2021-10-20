@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import LayoutOne from "../Layouts/LayoutOne";
 
 const Services = () => {
@@ -27,27 +28,27 @@ const Services = () => {
                 <div className="col-md-6">
                   <div className="blog-card">
                     <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-1.jpg" alt="Blog Thumb" />
-                      </a>
+                      <Link to="turizm-tasimacilik">
+                        <img
+                          src="img/hizmetlerimiz/turizm_tasimacilik.jpg"
+                          alt="Blog Thumb"
+                        />
+                      </Link>
                       <figcaption>
-                        <span>18</span>
-                        <span>SEP</span>
-                        <span>2019</span>
+                        <span>TUR</span>
+                        <span>TÜRK</span>
                       </figcaption>
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <a href="single-news.html">
-                          Custom modification &amp; fabrications
-                        </a>
+                        <Link to="/turizm-tasimacilik">Turizm Taşımacılık</Link>
                       </h2>
                       <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
                       </p>
-                      <a href="single-news.html">Read More</a>
+                      <Link to="/turizm-tasimacilik">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
                   </div>
@@ -57,27 +58,29 @@ const Services = () => {
                 <div className="col-md-6">
                   <div className="blog-card">
                     <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-2.jpg" alt="Blog Thumb" />
-                      </a>
+                      <Link to="/kongre-toplanti-organizasyon">
+                        <img
+                          src="img/hizmetlerimiz/seminer_organizasyon.jpg"
+                          alt="Blog Thumb"
+                        />
+                      </Link>
                       <figcaption>
-                        <span>12</span>
-                        <span>SEP</span>
-                        <span>2019</span>
+                        <span>TUR</span>
+                        <span>TÜRK</span>
                       </figcaption>
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <a href="single-news.html">
-                          A dedicated caravan and motorhome service
-                        </a>
+                        <Link to="/kongre-toplanti-organizasyon">
+                          Kongre, Toplantı ve Organizasyon
+                        </Link>
                       </h2>
                       <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
                       </p>
-                      <a href="single-news.html">Read More</a>
+                      <Link to="/kongre-toplanti-organizasyon">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
                   </div>
@@ -87,27 +90,27 @@ const Services = () => {
                 <div className="col-md-6">
                   <div className="blog-card">
                     <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-3.jpg" alt="Blog Thumb" />
-                      </a>
+                      <Link to="/filo-kiralama">
+                        <img
+                          src="img/hizmetlerimiz/filo_kiralama.jpg"
+                          alt="Blog Thumb"
+                        />
+                      </Link>
                       <figcaption>
-                        <span>08</span>
-                        <span>SEP</span>
-                        <span>2019</span>
+                        <span>TUR</span>
+                        <span>TÜRK</span>
                       </figcaption>
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <a href="single-news.html">
-                          All Auto &amp; Caravan Electrical Repairs
-                        </a>
+                        <Link to="/filo-kiralama">Filo Kiralama</Link>
                       </h2>
                       <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
                       </p>
-                      <a href="single-news.html">Read More</a>
+                      <Link to="/filo-kiralama">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
                   </div>
@@ -117,120 +120,37 @@ const Services = () => {
                 <div className="col-md-6">
                   <div className="blog-card">
                     <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-4.jpg" alt="Blog Thumb" />
-                      </a>
+                      <Link to="/vip">
+                        <img src="img/hizmetlerimiz/vip.jpg" alt="Blog Thumb" />
+                      </Link>
                       <figcaption>
-                        <span>03</span>
-                        <span>SEP</span>
-                        <span>2019</span>
+                        <span>TUR</span>
+                        <span>TÜRK</span>
                       </figcaption>
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <a href="single-news.html">
-                          We’re Servicing all Makes and Models
-                        </a>
+                        <Link to="/vip">V.I.P. Hizmetleri</Link>
                       </h2>
                       <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
                       </p>
-                      <a href="single-news.html">Read More</a>
+                      <Link to="/vip">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
                   </div>
                   {/* /.blog-card */}
                 </div>
                 {/* /.col-md-6 */}
-                <div className="col-md-6">
-                  <div className="blog-card">
-                    <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-5.jpg" alt="Blog Thumb" />
-                      </a>
-                      <figcaption>
-                        <span>30</span>
-                        <span>SEP</span>
-                        <span>2019</span>
-                      </figcaption>
-                    </figure>
-                    <div className="blog-card-body">
-                      <h2>
-                        <a href="single-news.html">
-                          Get your Motorhome or Caravan fitting out?
-                        </a>
-                      </h2>
-                      <p>
-                        Need something changed or is there something not quite
-                        working the way you envisaged? Is your van a little old
-                        and tired and need refreshing?
-                      </p>
-                      <a href="single-news.html">Read More</a>
-                    </div>
-                    {/* /.blog-card-body */}
-                  </div>
-                  {/* /.blog-card */}
-                </div>
-                {/* /.col-md-6 */}
-                <div className="col-md-6">
-                  <div className="blog-card">
-                    <figure>
-                      <a href="single-news.html">
-                        <img src="img/blog-1-6.jpg" alt="Blog Thumb" />
-                      </a>
-                      <figcaption>
-                        <span>26</span>
-                        <span>SEP</span>
-                        <span>2019</span>
-                      </figcaption>
-                    </figure>
-                    <div className="blog-card-body">
-                      <h2>
-                        <a href="single-news.html">
-                          Interior Refurbishment and Repairs
-                        </a>
-                      </h2>
-                      <p>
-                        Need something changed or is there something not quite
-                        working the way you envisaged? Is your van a little old
-                        and tired and need refreshing?
-                      </p>
-                      <a href="single-news.html">Read More</a>
-                    </div>
-                    {/* /.blog-card-body */}
-                  </div>
-                  {/* /.blog-card */}
-                </div>
+
                 {/* /.col-md-6 */}
               </div>
               {/* /.row */}
             </div>
             {/* /.container */}
-            <div className="partners bg4">
-              <div className="container">
-                <div className="partner-carousel owl-carousel">
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                  <a href="#">
-                    <img src="img/partners/01.png" alt="Partners" />
-                  </a>
-                </div>
-                {/* /.partner-carousel */}
-              </div>
-              {/* /.container */}
-            </div>
+
             {/* /.partners */}
           </div>
           {/* /.blog blog-1 */}

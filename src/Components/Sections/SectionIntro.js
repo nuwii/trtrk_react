@@ -15,7 +15,7 @@ const SectionIntro = () => {
           {/* /.col-12 */}
           <div className="col-xl-6">
             <figure className="text-xl-left text-center my-xl-0 my-3">
-              <img src="img/about-1-1.jpg" alt="Intro" />
+              <img src="img/intro-1.jpg" alt="Intro" />
             </figure>
           </div>
           {/* /.col-xl-6 */}
