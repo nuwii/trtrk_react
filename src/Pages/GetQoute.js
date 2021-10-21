@@ -1,6 +1,8 @@
 import React, { Fragment, useRef } from "react";
 import LayoutOne from "../Layouts/LayoutOne";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const GetQoute = () => {
   const form = useRef();
@@ -15,14 +17,16 @@ const GetQoute = () => {
         form.current,
         "user_YJkusy5AJ3KRaX7ZSxU0O"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
+      .then((result) => {
+        if (result.status === 200) {
+          toast.success("Teklif formunuz gönderildi.");
+        } else {
+          toast.error("Teklif formunuz gönderilemedi.");
         }
-      );
+      })
+      .catch((err) => {
+        toast.error("Teklif formunuz gönderilemedi.");
+      });
   };
 
   return (
@@ -224,6 +228,7 @@ const GetQoute = () => {
           {/* /.googleMap */}
           {/* /.page-wrapper */}
         </div>
+        <ToastContainer position="bottom-left" />
       </LayoutOne>
     </Fragment>
   );

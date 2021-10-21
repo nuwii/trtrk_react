@@ -143,9 +143,12 @@ const NavMenu = ({ strings, icons, texts }) => {
                 </li>
 
                 <li>
-                  <Link style={{ textDecoration: "none" }} to="/iletisim">
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href="https://turturk.com.tr/iletisim"
+                  >
                     {strings["contact"]}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

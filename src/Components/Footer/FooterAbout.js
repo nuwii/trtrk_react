@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { multilanguage } from "redux-multilanguage";
 
 const FooterAbout = ({ icons }) => {
-  console.log(icons.logo);
   return (
     <div className="col-lg-3 col-md-6">
       <div className="footer-col">

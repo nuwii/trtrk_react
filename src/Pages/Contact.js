@@ -1,6 +1,8 @@
 import React, { Fragment, useEffect, useState, useRef } from "react";
 import LayoutOne from "../Layouts/LayoutOne";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -15,14 +17,16 @@ const Contact = () => {
         form.current,
         "user_YJkusy5AJ3KRaX7ZSxU0O"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
+      .then((result) => {
+        if (result.status === 200) {
+          toast.success("İletişim Formunuz Başarıyla Gönderildi");
+        } else {
+          toast.error("İletişim Formunuz Gönderilemedi");
         }
-      );
+      })
+      .catch((err) => {
+        toast.error("İletişim Formunuz Gönderilemedi");
+      });
   };
 
   return (
@@ -151,6 +155,7 @@ const Contact = () => {
         </div>
         {/* /.blog blog-1 */}
         {/* /.page-wrapper */}
+        <ToastContainer position="bottom-left" />
       </LayoutOne>
     </Fragment>
   );
