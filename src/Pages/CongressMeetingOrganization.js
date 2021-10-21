@@ -29,7 +29,7 @@ const CongressMeetingOrganization = () => {
                 <div className="col-lg-8">
                   <article>
                     <figure>
-                      <img src="img/kongre/kongre3.jpg" alt="Service Thumb" />
+                      <img src="img/kongre5.jpg" alt="Service Thumb" />
                     </figure>
                     <div className="service-body">
                       <h2>Kongre, Toplantı ve Organizasyon</h2>
@@ -55,7 +55,7 @@ const CongressMeetingOrganization = () => {
                         {/* /.col-sm-6 */}
                         <div className="col-sm-6 mb-5">
                           <img
-                            src="img/kongre/kongre2.jpg"
+                            src="img/yemekliseminer.jpg"
                             alt="Service Image"
                           />
                         </div>

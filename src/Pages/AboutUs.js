@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <div className="col-12">
                   <header>
                     <figure>
-                      <img src="img/about-3-1.jpg" alt="About us" />
+                      <img src="img/hakkimizda-2.jpg" alt="About us" />
                       <figcaption>
                         <p className="f1 fw-3">
                           2007 yılında Turizm Taşımacılık,
@@ -72,7 +72,7 @@ const AboutUs = () => {
                   {/* /.col-12 */}
                   <div className="col-xl-6 text-xl-left text-center mb-xl-0 mb-3">
                     <img
-                      src="img/faq-1-1.jpg"
+                      src="img/mission.jpg"
                       alt="Frequently Asked Questions"
                     />
                   </div>
@@ -114,7 +114,7 @@ const AboutUs = () => {
                   {/* /.col-lg-6 */}
                   <div className="col-xl-6 text-xl-left text-center mb-xl-0 mb-3">
                     <img
-                      src="img/faq-1-1.jpg"
+                      src="img/vision.jpg"
                       alt="Frequently Asked Questions"
                     />
                   </div>

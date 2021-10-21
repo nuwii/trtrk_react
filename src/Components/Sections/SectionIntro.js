@@ -7,8 +7,9 @@ const SectionIntro = () => {
         <div className="row">
           <div className="col-12 mb-xl-5 text-xl-left text-center">
             <div className="thm-header">
-              <p className="c1 pb-10">We repair all caravans &amp; Motorhome</p>
-              <h1 className="c3">Book Professional Repairmen in Few Seconds</h1>
+              <p className="c1 pb-10">Kurumsal Çözümlerde Öncü Kuruluş</p>
+
+              <h1 className="c3">2007 Yılından Bugüne Aynı Hizmet Anlayışı</h1>
             </div>
             {/* /.thm-header */}
           </div>
@@ -22,38 +23,33 @@ const SectionIntro = () => {
           <div className="col-xl-6">
             <section className="pt-xl-0 pt-3">
               <p>
-                Caravan Repair Service Centre takes pride in all our work, our
-                qualified staff are highly trained in all areas so your piece of
-                mind is assured. We use the latest equipment, genuine parts and
-                quality materials so having your caravan repaired to its
-                original condition is our promise to you.
+                "Kalite, Konfor ve Güvenlik" ilkelerimizden ödün vermeden birçok
+                Kurum ve Kuruluş'a hizmet vermeye devam etmekteyiz. Yıllar
+                içinde atmış olduğumuz kararlı adımlar sayesinde her geçen gün
+                hizmet ağını ve kalitesini geliştirmeye devam eden TurTürk,
+                Türkiye'nin her noktasına aynı kalite ve özen ile hizmet
+                vermektedir.
+              </p>
+              <p>"Önceliğimiz Güvenliğiniz"</p>
+              <p>
+                Tüm araçlarımız ve personellerimiz üzerinde sürekli
+                gerçekleştirdiğimiz denetimler ve kontroller sayesinde seyahat
+                ve organizasyonlarınızın güven içinde geçmesi için
+                çalışmalarımızı sürdürüyoruz. Sağlıkla ve memnuniyetle
+                tamamlanan her seyahat bizlerin herzaman önceliğidir.
               </p>
               <p>
-                A Regular service is very important for you and your caravan.
-                Have your caravan professionally and regularly serviced by
-                Caravan Repair Service Centre and take the hassle away for your
-                next journey.
+                TurTürk olarak başarımızın temelinde "Hizmet Odaklı" anlayışımız
+                ve gelişime verdiğimiz önem yatmaktadır.
               </p>
             </section>
             <div className="facts text-white text-xl-left text-center">
               <div className="d-flex justify-content-between flex-sm-row flex-column">
                 <div className="single-fact">
-                  <i className="carevan-icon-caravan" />
-                  <h1 className="counter">6800</h1>
-                  <p className="f1 fw-6">Caravan Repairs</p>
+                  <h1 className="counter">"Kalite & Konfor & Güvenlik"</h1>
                 </div>
                 {/* /.single-fact */}
-                <div className="single-fact">
-                  <i className="carevan-icon-disc-brake" />
-                  <h1 className="counter">4607</h1>
-                  <p className="f1 fw-6">Used Auto Parts</p>
-                </div>
-                {/* /.single-fact */}
-                <div className="single-fact">
-                  <i className="carevan-icon-heart" />
-                  <h1 className="counter">8940</h1>
-                  <p className="f1 fw-6">Satisfied Clients</p>
-                </div>
+
                 {/* /.single-fact */}
               </div>
               {/* /.d-flex */}

@@ -60,9 +60,9 @@ const GetQoute = () => {
                         <h1 className="fw-3 c3">
                           <a
                             style={{ color: "black", textDecoration: "none" }}
-                            href="tel:05555555555"
+                            href="tel:905322863877"
                           >
-                            0(555)555-55-55
+                            (532)286-38-77
                           </a>
                         </h1>
                       </div>

@@ -49,7 +49,7 @@ const FleetLeasing = () => {
                         </div>
                         {/* /.col-sm-6 */}
                         <div className="col-sm-6">
-                          <img src="img/filo/filo3.jpg" alt="Service Image" />
+                          <img src="img/filokiralama.jpg" alt="Service Image" />
                         </div>
                         {/* /.col-sm-6 */}
                       </div>

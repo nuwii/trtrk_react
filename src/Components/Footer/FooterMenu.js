@@ -52,23 +52,23 @@ const FooterMenu = () => {
       {/* /.col-xl-3 */}
       <div className="col-lg-3 col-md-6">
         <div className="footer-col">
-          <h2>contact</h2>
+          <h2>İletişim</h2>
           <h4>
-            Koç İkiz Kuleleri B Blok Kat:9
+            Sağlık 1 Sokak 31/12
             <br />
-            Çankaya / ANKARA
+            Yenişehir / Ankara
           </h4>
           <ul>
             <li>
               <span>
                 <i className="fa fa-envelope c1" />
-                info@osicrew.com
+                info@turturk.com.tr
               </span>
             </li>
             <li>
               <span>
                 <i className="fa fa-phone-square c1" />
-                666 888 0000
+                +90(532)286-38-77
               </span>
             </li>
           </ul>

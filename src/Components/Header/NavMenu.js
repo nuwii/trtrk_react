@@ -12,7 +12,7 @@ const NavMenu = ({ strings, icons, texts }) => {
         <div className="top-header">
           <div className="container clearfix">
             <div className="logo-box float-left">
-              <Link to="/home">
+              <Link to="/">
                 <img style={{ maxWidth: "10em" }} src={icons.logo} alt />
               </Link>
             </div>
@@ -46,21 +46,12 @@ const NavMenu = ({ strings, icons, texts }) => {
                 {/* /.text-block */}
               </div>
               {/* /.single-right-contact */}
-              <div className="single-right-contact">
-                <div className="icon-block">
-                  <i className={icons["clockIcon"]} />
-                  {/* /.Carivon-icon-placeholder */}
-                </div>
-                {/* /.icon-block */}
-                <div className="text-block">
-                  <p>
-                    <span>Pzt-Cmt: 8:00 - 17:00</span> Mesai Saatleri
-                  </p>
-                </div>
-                {/* /.text-block */}
-              </div>
+
               {/* /.single-right-contact */}
-              <div className="single-right-contact">
+              <div
+                style={{ backgroundColor: "red" }}
+                className="single-right-contact"
+              >
                 <a href="/teklifAl" className="header-btn">
                   TEKLİF AL
                 </a>
@@ -152,9 +143,9 @@ const NavMenu = ({ strings, icons, texts }) => {
                 </li>
 
                 <li>
-                  <a style={{ textDecoration: "none" }} href="/iletisim">
+                  <Link style={{ textDecoration: "none" }} to="/iletisim">
                     {strings["contact"]}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

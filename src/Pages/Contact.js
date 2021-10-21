@@ -34,13 +34,13 @@ const Contact = () => {
             <div
               className="google-map-dark"
               id="map"
-              data-map-lat="39.91289"
-              data-map-lng="32.80405"
+              data-map-lat="39.92565"
+              data-map-lng="32.85845"
               data-map-title="Advotis"
               data-icon-path="img/map-marker.png"
               data-map-zoom={17}
               data-markers='{
-                             "marker-1": [39.91289, 32.80405, "<h4>Turtürk</h4><p>Çankaya / ANKARA</p>"]
+                             "marker-1": [39.92565, 32.85845, "<h4>Turtürk</h4><p>Çankaya / ANKARA</p>"]
                              }'
             ></div>
           </div>
@@ -48,11 +48,11 @@ const Contact = () => {
             <div className="row justify-content-end">
               <div className="contact-txt f1 col-12">
                 <figure className="text-right">
-                  <img src="img/contact-1-1.jpg" alt="Contac Banner" />
+                  <img src="img/iletisim.jpg" alt="Contac Banner" />
                   <figcaption className="text-left">
                     <div className="thm-header text-white">
                       <p className="pb-10">BİZE ULAŞIN</p>
-                      <h1>Bizimle temas kurmaktan çekinmeyin.</h1>
+                      <h1>Bizimle iletişime geçin.</h1>
                     </div>
                     {/* /.thm-header */}
                     <ul>
@@ -61,9 +61,9 @@ const Contact = () => {
                         <h2>
                           <a
                             style={{ color: "white", textDecoration: "none" }}
-                            href="tel:+905555555555"
+                            href="tel:+905322863877"
                           >
-                            +90(555)555-55-55
+                            +90(532)286-38-77
                           </a>
                         </h2>
                       </li>
@@ -75,9 +75,9 @@ const Contact = () => {
                         <h2>
                           <a
                             style={{ color: "white", textDecoration: "none" }}
-                            href="mailto:info@osireklamajansi.com"
+                            href="mailto:info@turturk.com.tr"
                           >
-                            info@osireklamajansi.com
+                            info@turturk.com.tr
                           </a>
                         </h2>
                       </li>
@@ -146,29 +146,7 @@ const Contact = () => {
             {/* /.container */}
           </div>
           {/* /.contact-form */}
-          <div className="partners bg4">
-            <div className="container">
-              <div className="partner-carousel owl-carousel">
-                <a href="#">
-                  <img src="img/partners/01.png" alt="Partners" />
-                </a>
-                <a href="#">
-                  <img src="img/partners/01.png" alt="Partners" />
-                </a>
-                <a href="#">
-                  <img src="img/partners/01.png" alt="Partners" />
-                </a>
-                <a href="#">
-                  <img src="img/partners/01.png" alt="Partners" />
-                </a>
-                <a href="#">
-                  <img src="img/partners/01.png" alt="Partners" />
-                </a>
-              </div>
-              {/* /.partner-carousel */}
-            </div>
-            {/* /.container */}
-          </div>
+
           {/* /.partners */}
         </div>
         {/* /.blog blog-1 */}

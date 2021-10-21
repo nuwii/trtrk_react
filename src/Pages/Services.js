@@ -41,13 +41,18 @@ const Services = () => {
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <Link to="/turizm-tasimacilik">Turizm Taşımacılık</Link>
+                        <Link
+                          style={{ textDecoration: "unset" }}
+                          to="/turizm-tasimacilik"
+                        >
+                          Turizm Taşımacılık
+                        </Link>
                       </h2>
-                      <p>
+                      {/* <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
-                      </p>
+                      </p> */}
                       <Link to="/turizm-tasimacilik">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
@@ -71,15 +76,18 @@ const Services = () => {
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <Link to="/kongre-toplanti-organizasyon">
+                        <Link
+                          style={{ textDecoration: "unset" }}
+                          to="/kongre-toplanti-organizasyon"
+                        >
                           Kongre, Toplantı ve Organizasyon
                         </Link>
                       </h2>
-                      <p>
+                      {/* <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
-                      </p>
+                      </p> */}
                       <Link to="/kongre-toplanti-organizasyon">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
@@ -103,13 +111,18 @@ const Services = () => {
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <Link to="/filo-kiralama">Filo Kiralama</Link>
+                        <Link
+                          style={{ textDecoration: "unset" }}
+                          to="/filo-kiralama"
+                        >
+                          Filo Kiralama
+                        </Link>
                       </h2>
-                      <p>
+                      {/* <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
-                      </p>
+                      </p> */}
                       <Link to="/filo-kiralama">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}
@@ -130,13 +143,15 @@ const Services = () => {
                     </figure>
                     <div className="blog-card-body">
                       <h2>
-                        <Link to="/vip">V.I.P. Hizmetleri</Link>
+                        <Link style={{ textDecoration: "unset" }} to="/vip">
+                          V.I.P. Hizmetleri
+                        </Link>
                       </h2>
-                      <p>
+                      {/* <p>
                         Need something changed or is there something not quite
                         working the way you envisaged? Is your van a little old
                         and tired and need refreshing?
-                      </p>
+                      </p> */}
                       <Link to="/vip">Daha Fazla</Link>
                     </div>
                     {/* /.blog-card-body */}

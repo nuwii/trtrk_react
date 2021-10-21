@@ -28,7 +28,7 @@ const App = (props) => {
   props.dispatch(changeLanguage("en"));
 
   return (
-    <Router>
+    <Router basename="/">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/hakkimizda" component={About} />

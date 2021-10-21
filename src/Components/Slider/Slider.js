@@ -1,4 +1,6 @@
 import React from "react";
+import "../../Pages/Pages.css";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -28,27 +30,40 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <p
+                  <h2
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
                     data-animation="animated fadeInUp "
-                    className="tag-line animDe-1"
+                    className="animDe-2"
                   >
-                    <span className="text-uppercase f1 fw-8">
-                      guaranteed work on all repairs
-                    </span>
-                  </p>
-                  <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Welcome to Caravan
+                    Filo Kiralamada
                   </h2>
-                  <h2 data-animation="animated fadeInUp " className="animDe-3">
-                    Repairs Services
+                  <h2
+                    data-animation="animated fadeInUp "
+                    className="animDe-3"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Çözüm Ortağınız
                   </h2>
-                  <a
-                    href="service.html"
+                  <Link
+                    to="/iletisim"
                     data-animation="animated fadeInUp "
                     className="bg1 text-white banner-btn animDe-4"
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      letterSpacing: "2px",
+                    }}
                   >
-                    our services
-                  </a>
+                    İLETİŞİM
+                  </Link>
                 </div>
               </div>
             </div>
@@ -66,34 +81,41 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <h2 data-animation="animated fadeInUp " className="animDe-1">
-                    Total Care For Your
+                  <h2
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                    data-animation="animated fadeInUp "
+                    className="animDe-2"
+                  >
+                    Kalite,
                   </h2>
-                  <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Caravan Or Motorhome
+                  <h2
+                    data-animation="animated fadeInUp "
+                    className="animDe-3"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Konfor ve Güvenlik
                   </h2>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    We pride ourselves on giving you the best standard of
-                  </p>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    customer Service and quality Repairs.
-                  </p>
-                  <div className="banner-btn-box">
-                    <a
-                      href="contact.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-4 bg1 text-white banner-btn"
-                    >
-                      contact us
-                    </a>
-                    <a
-                      href="service.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-5 bg2 text-white banner-btn style-two"
-                    >
-                      our services
-                    </a>
-                  </div>
+
+                  <Link
+                    to="/turizm-tasimacilik"
+                    data-animation="animated fadeInUp "
+                    className="bg1 text-white banner-btn animDe-4"
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      letterSpacing: "2px",
+                    }}
+                  >
+                    DETAY
+                  </Link>
                   {/* /.banner-btn-box */}
                 </div>
               </div>
@@ -111,34 +133,41 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <h2 data-animation="animated fadeInUp " className="animDe-1">
-                    Total Care For Your
+                  <h2
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                    data-animation="animated fadeInUp "
+                    className="animDe-2"
+                  >
+                    Güçlü Filo,
                   </h2>
-                  <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Caravan Or Motorhome
+                  <h2
+                    data-animation="animated fadeInUp "
+                    className="animDe-3"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Güçlü Hizmet Ağı
                   </h2>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    We pride ourselves on giving you the best standard of
-                  </p>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    customer Service and quality Repairs.
-                  </p>
-                  <div className="banner-btn-box">
-                    <a
-                      href="contact.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-4 bg1 text-white banner-btn"
-                    >
-                      contact us
-                    </a>
-                    <a
-                      href="service.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-5 bg2 text-white banner-btn style-two"
-                    >
-                      our services
-                    </a>
-                  </div>
+
+                  <Link
+                    to="/kongre-toplanti-organizasyon"
+                    data-animation="animated fadeInUp "
+                    className="bg1 text-white banner-btn animDe-4"
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      letterSpacing: "2px",
+                    }}
+                  >
+                    DETAY
+                  </Link>
                   {/* /.banner-btn-box */}
                 </div>
               </div>
@@ -156,34 +185,41 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <h2 data-animation="animated fadeInUp " className="animDe-1">
-                    Total Care For Your
+                  <h2
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                    data-animation="animated fadeInUp "
+                    className="animDe-2"
+                  >
+                    Her Anınızda,
                   </h2>
-                  <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Caravan Or Motorhome
+                  <h2
+                    data-animation="animated fadeInUp "
+                    className="animDe-3"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    V.I.P. Hizmet Yanınızda
                   </h2>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    We pride ourselves on giving you the best standard of
-                  </p>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    customer Service and quality Repairs.
-                  </p>
-                  <div className="banner-btn-box">
-                    <a
-                      href="contact.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-4 bg1 text-white banner-btn"
-                    >
-                      contact us
-                    </a>
-                    <a
-                      href="service.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-5 bg2 text-white banner-btn style-two"
-                    >
-                      our services
-                    </a>
-                  </div>
+
+                  <Link
+                    to="/vip"
+                    data-animation="animated fadeInUp "
+                    className="bg1 text-white banner-btn animDe-4"
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      letterSpacing: "2px",
+                    }}
+                  >
+                    DETAY
+                  </Link>
                   {/* /.banner-btn-box */}
                 </div>
               </div>
@@ -201,34 +237,41 @@ const Slider = () => {
             <div className="container">
               <div className="box valign-middle">
                 <div className="content text-center">
-                  <h2 data-animation="animated fadeInUp " className="animDe-1">
-                    Total Care For Your
+                  <h2
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                    data-animation="animated fadeInUp "
+                    className="animDe-2"
+                  >
+                    Sektörde
                   </h2>
-                  <h2 data-animation="animated fadeInUp " className="animDe-2">
-                    Caravan Or Motorhome
+                  <h2
+                    data-animation="animated fadeInUp "
+                    className="animDe-3"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Yenilikçi Anlayış
                   </h2>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    We pride ourselves on giving you the best standard of
-                  </p>
-                  <p data-animation="animated fadeInUp " className="animDe-3">
-                    customer Service and quality Repairs.
-                  </p>
-                  <div className="banner-btn-box">
-                    <a
-                      href="contact.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-4 bg1 text-white banner-btn"
-                    >
-                      contact us
-                    </a>
-                    <a
-                      href="service.html"
-                      data-animation="animated fadeInUp "
-                      className="animDe-5 bg2 text-white banner-btn style-two"
-                    >
-                      our services
-                    </a>
-                  </div>
+
+                  <Link
+                    to="/filo-kiralama"
+                    data-animation="animated fadeInUp "
+                    className="bg1 text-white banner-btn animDe-4"
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      letterSpacing: "2px",
+                    }}
+                  >
+                    DETAY
+                  </Link>
                   {/* /.banner-btn-box */}
                 </div>
               </div>
