@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
+import "../../Pages/Pages.css";
 
 const FooterMenu = () => {
   return (
     <Fragment>
       {" "}
       {/* /.col-xl-3 */}
-      <div className="col-lg-3 col-md-6 d-flex justify-content-xl-center">
+      <div className="col-lg-3 col-md-6 d-flex justify-content-center phoneUnvisible">
         <div className="footer-col">
           <h2>Kolay Erişim</h2>
           <ul>
@@ -29,7 +30,7 @@ const FooterMenu = () => {
         {/* /.footer-col */}
       </div>
       {/* /.col-xl-3 */}
-      <div className="col-lg-3 col-md-6">
+      <div className="col-lg-3 col-md-6 mobileFooter">
         <div className="footer-col">
           <h2>Sosyal Medya</h2>
           <ul>
@@ -50,7 +51,7 @@ const FooterMenu = () => {
         {/* /.footer-col */}
       </div>
       {/* /.col-xl-3 */}
-      <div className="col-lg-3 col-md-6">
+      <div className="col-lg-3 col-md-6 mobileFooter">
         <div className="footer-col">
           <h2>İletişim</h2>
           <h4>

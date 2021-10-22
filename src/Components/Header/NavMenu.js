@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
@@ -6,6 +6,7 @@ import { multilanguage } from "redux-multilanguage";
 import Contact from "../../Pages/Contact";
 
 const NavMenu = ({ strings, icons, texts }) => {
+  const [show, setShow] = useState(false);
   return (
     <Fragment>
       <div className="site-header header-one">
@@ -17,7 +18,7 @@ const NavMenu = ({ strings, icons, texts }) => {
               </Link>
             </div>
             {/* /.logo-box */}
-            <div className="float-right right-contact-block">
+            <div className="float-right right-contact-block phoneVisible">
               <div className="single-right-contact">
                 <div className="icon-block">
                   <i className={icons["mapIcon"]} />
@@ -68,13 +69,21 @@ const NavMenu = ({ strings, icons, texts }) => {
           <div className="container clearfix">
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="logo-box clearfix">
-              <button className="menu-toggler" data-target="#main-nav-bar">
+              <button
+                className="menu-toggler"
+                data-target={"#main-nav-bar"}
+                onClick={() => setShow(!show)}
+              >
                 <span className="fa fa-bars" />
               </button>
             </div>
             {/* /.logo-box */}
             {/* Collect the nav links, forms, and other content for toggling */}
-            <div className="main-navigation" id="main-nav-bar">
+            <div
+              className="main-navigation"
+              style={show ? { display: "block" } : { display: "none" }}
+              id="main-nav-bar"
+            >
               <ul className="navigation-box">
                 <li className="current">
                   <Link style={{ textDecoration: "none" }} to="/">

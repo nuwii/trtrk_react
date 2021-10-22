@@ -4,7 +4,7 @@ import { multilanguage } from "redux-multilanguage";
 
 const FooterAbout = ({ icons }) => {
   return (
-    <div className="col-lg-3 col-md-6">
+    <div className="col-lg-3 col-md-6 ">
       <div className="footer-col">
         <a href="/">
           <img style={{ maxWidth: "10em" }} src={icons.logo} alt="Logo" />

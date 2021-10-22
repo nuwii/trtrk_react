@@ -56,7 +56,7 @@ const Contact = () => {
                   <figcaption className="text-left">
                     <div className="thm-header text-white">
                       <p className="pb-10">BİZE ULAŞIN</p>
-                      <h1>Bizimle iletişime geçin.</h1>
+                      <h1 className="mobileFont">Bizimle iletişime geçin.</h1>
                     </div>
                     {/* /.thm-header */}
                     <ul>
@@ -66,6 +66,7 @@ const Contact = () => {
                           <a
                             style={{ color: "white", textDecoration: "none" }}
                             href="tel:+905322863877"
+                            className="mobileFont"
                           >
                             +90(532)286-38-77
                           </a>
@@ -80,6 +81,7 @@ const Contact = () => {
                           <a
                             style={{ color: "white", textDecoration: "none" }}
                             href="mailto:info@turturk.com.tr"
+                            className="mobileFont"
                           >
                             info@turturk.com.tr
                           </a>

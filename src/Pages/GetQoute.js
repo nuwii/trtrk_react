@@ -3,7 +3,7 @@ import LayoutOne from "../Layouts/LayoutOne";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import "./Pages.css";
 const GetQoute = () => {
   const form = useRef();
 
@@ -43,7 +43,7 @@ const GetQoute = () => {
                 </li>
                 <li className="c1">TEKLİF AL</li>
               </ul>
-              <h1 className="c3">TEKLİF AL</h1>
+              <h1 className="c3 ">TEKLİF AL</h1>
             </div>
             {/* /.thm-header */}
           </div>
@@ -54,7 +54,7 @@ const GetQoute = () => {
                 <div className="col-xl-4 bg1 d-flex">
                   <div className="content-box my-auto">
                     <div className="text-white text-center">
-                      <h2 className="f1">
+                      <h2 className="f1 mobileFont">
                         Sizlere en uygun araçlarımız için teklif almak
                         istiyorsanız yanda bulunan formu doldurmanız yeterli!
                         Satış temsilcilerimiz en kısa sürede size ulaşacaktır.

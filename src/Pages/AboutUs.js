@@ -77,8 +77,8 @@ const AboutUs = () => {
                     />
                   </div>
                   {/* /.col-lg-6 */}
-                  <div className="col-xl-6">
-                    <p className="text-about">
+                  <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p className="text-about justify-content-center mobileFont">
                       TurTürk; tüm çalışma arkadaşları ile birlikte gelişen
                       teknolojik yenilikleri takip edip, çevreye duyarlı
                       anlayışı ile kalitesinden ödün vermeden hizmet vermeye
@@ -104,8 +104,8 @@ const AboutUs = () => {
                   </div>
                   {/* /.col-12 */}
 
-                  <div className="col-xl-6">
-                    <p className="text-about">
+                  <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p className="text-about mobileFont justify-content-center">
                       Her geçen gün kararlı büyümemizi sağlayan yenilikçi
                       adımlar atarken, Türkiye'nin her ilinde kaliteli hizmetler
                       sunarak sürdürülebilir hizmet vermeye devam edeceğiz.
